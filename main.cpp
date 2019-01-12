@@ -143,6 +143,7 @@ void generateLabirint(cell **board, int n)
 	vector<step> steps;
 	step doStep = { 1,1 };
 	steps.push_back(doStep);
+	board[steps.back().x][steps.back().y].visited = true;
 
 	while (steps.size() > 0)
 	{
