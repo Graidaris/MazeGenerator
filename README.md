@@ -1,1 +1,2 @@
-# GeneratorLabirint
+# Maze Generator
+
